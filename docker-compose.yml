@@ -16,6 +16,13 @@ services:
       - ./initial.sql:/docker-entrypoint-initdb.d/initial.sql:ro
     ports:
       - "3306:3306"
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+        - 8080:80
+    environment:
+        - PMA_ARBITRARY=1
   web:
     build: .
     command: python manage.py runserver 0.0.0.0:8000
