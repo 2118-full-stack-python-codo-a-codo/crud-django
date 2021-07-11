@@ -2,7 +2,7 @@
 
 Correr linea de comando
 
-`docker-compose run web django-admin cruddjango djangoexample .`
+`docker-compose run web django-admin startproject cruddjango .`
 
 
 Ahora creamos una app que se llama encuestas
