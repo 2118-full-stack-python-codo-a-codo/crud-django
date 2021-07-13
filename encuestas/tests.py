@@ -11,8 +11,9 @@ class MyIntegrationTest(TestCase):
         return super().setUp()
     
     def testHelloWrold(self):
-        request = self.client.get("/users/")
-        self.assertEqual(request.content , "Hello world from Django for Codo a Codo 4.0")
+        response = self.client.get("/users/")
+        self.assertContains(response , "Hello world from Django for Codo a Codo 4.0")
 
-    def testSegundoHelloWorld(self):
-        self.fail()
+    def testSatusCodeHelloWorld(self):
+        response = self.client.get("/users/")
+        self.assertEqual(response.status_code, 200 )
