@@ -20,12 +20,12 @@ Por ultimo creamos un super usuario
 
 Actividades:
 
-* Cada Miembro del equipo debe cambiar el archivo readme.md en la seccion de contributors (si no la tiene agregarla)
+- [ ] Cada Miembro del equipo debe cambiar el archivo readme.md en la seccion de contributors (si no la tiene agregarla)
 
-* Cada miembro del equipo debe poder descargar el proyecto del repositorio y probarlo localmente
+- [ ] Cada miembro del equipo debe poder descargar el proyecto del repositorio y probarlo localmente
 
-* Crear un proyecto de github
+- [ ] Crear un proyecto de github
 
-* crear N urls con N respuestas distintas dependiendo de la cantidad de miembros del equipo.
+- [ ] crear N urls con N respuestas distintas dependiendo de la cantidad de miembros del equipo.
 
-* Tienen que tener un test escrito en el archivo tests.py
+- [ ] Tienen que tener un test escrito en el archivo tests.py
