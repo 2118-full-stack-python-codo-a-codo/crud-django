@@ -17,3 +17,17 @@ class MyIntegrationTest(TestCase):
     def testSatusCodeHelloWorld(self):
         response = self.client.get("/users/")
         self.assertEqual(response.status_code, 200 )
+
+    #Testing the CRUD
+    def testCreate(self):
+        self.fail()
+
+    def testUpdate(self):
+        self.fail()
+
+    def testDelete(self):
+        self.fail()
+
+    def testRead(self):
+        self.fail()
+    
