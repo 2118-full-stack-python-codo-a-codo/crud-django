@@ -18,6 +18,10 @@ Por ultimo creamos un super usuario
 
 `docker-compose run web python manage.py createsuperuser`
 
+Crontributors:
+
+• Jhonathan Peña
+
 Actividades:
 
 - [ ] Cada Miembro del equipo debe cambiar el archivo readme.md en la seccion de contributors (si no la tiene agregarla)
