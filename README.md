@@ -18,9 +18,10 @@ Por ultimo creamos un super usuario
 
 `docker-compose run web python manage.py createsuperuser`
 
-Crontributors:
+Contributors:
 
 • Jhonathan Peña
+• Leonardo Guzman
 
 Actividades:
 
