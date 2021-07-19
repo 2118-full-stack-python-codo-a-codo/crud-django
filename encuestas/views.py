@@ -14,6 +14,9 @@ def gaston(request):
     return HttpResponse("Respuesta creada por Gaston")
 #gaston este es un PR apruebalo
 
+def leonardo (request):
+    return HttpResponse("Respuesta creada por Leonardo")
+
 def create(data):
     pass
 
@@ -28,8 +31,8 @@ def gretting(request):
    
     # Que hacemos si un GET?
     # vamos a escribir un IF para determinar si es GET la respuesta devuelve datos.
-    #myUsers = User.objects.all() 
-   #     output = []
+    # myUsers = User.objects.all() 
+    #     output = []
     #     for user in myUsers:
     #    print(user.username)
     #    output.append(user.username)
