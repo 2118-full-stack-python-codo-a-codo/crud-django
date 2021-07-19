@@ -14,6 +14,9 @@ def gaston(request):
     return HttpResponse("Respuesta creada por Gaston")
 #gaston este es un PR apruebalo
 
+def leonardo (request):
+    return HttpResponse("Respuesta creada por Leonardo")
+
 def create(data):
     pass
 
