@@ -31,8 +31,8 @@ def gretting(request):
    
     # Que hacemos si un GET?
     # vamos a escribir un IF para determinar si es GET la respuesta devuelve datos.
-    #myUsers = User.objects.all() 
-   #     output = []
+    # myUsers = User.objects.all() 
+    #     output = []
     #     for user in myUsers:
     #    print(user.username)
     #    output.append(user.username)
