@@ -24,6 +24,8 @@ Contributors:
 
 • Leonardo Guzman
 
+• Miguel Royett
+
 Actividades:
 
 - [ ] Cada Miembro del equipo debe cambiar el archivo readme.md en la seccion de contributors (si no la tiene agregarla)
