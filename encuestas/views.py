@@ -7,6 +7,9 @@ from .models import User
 def jhonathan(request):
     return HttpResponse("Respuesta creada por Jhonathan")
 
+def Miguel(request):
+    return HttpResponse("Respuesta creada por Miguel Royett")
+
 def create(data):
     pass
 
