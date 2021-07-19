@@ -22,18 +22,8 @@ class MyIntegrationTest(TestCase):
         response = self.client.get("/leonardo/")
         self.assertContains(response , "Test aceptado y creado por Leonardo Guzman")
         #test agregado por Leonardo
+     
+     def testProbarUrlJhonathan(self):
+        response = self.client.get("/jhonathan/")
+        self.assertContains(response , "Test aceptado y creado por Jhonathan Peña") #test agregado por Jhonathan
 
-
-    #Testing the CRUD
-    def testCreate(self):
-        self.fail()
-
-    def testUpdate(self):
-        self.fail()
-
-    def testDelete(self):
-        self.fail()
-
-    def testRead(self):
-        self.fail()
-    
