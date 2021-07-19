@@ -21,6 +21,7 @@ Por ultimo creamos un super usuario
 Crontributors:
 
 • Jhonathan Peña
+• Leonardo Guzman
 
 Actividades:
 
