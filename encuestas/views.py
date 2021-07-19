@@ -4,8 +4,8 @@ from .models import User
 
 # Create your views here.
 
-def update(data):
-    pass
+def jhonathan(request):
+    return HttpResponse("Respuesta creada por Jhonathan")
 
 def create(data):
     pass
