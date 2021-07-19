@@ -20,7 +20,7 @@ class MyIntegrationTest(TestCase):
      
      def testProbarUrlJhonathan(self):
         response = self.client.get("/jhonathan/")
-        self.assertContains(response , "Test aceptado y creado por Jhonathan Peña")
+        self.assertContains(response , "Test aceptado y creado por Jhonathan Peña") #test agregado por Jhonathan
 
     #Testing the CRUD
     def testCreate(self):
