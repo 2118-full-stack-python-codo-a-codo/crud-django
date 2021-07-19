@@ -17,6 +17,10 @@ class MyIntegrationTest(TestCase):
     def testSatusCodeHelloWorld(self):
         response = self.client.get("/users/")
         self.assertEqual(response.status_code, 200 )
+     
+     def testProbarUrlJhonathan(self):
+        response = self.client.get("/jhonathan/")
+        self.assertContains(response , "Test aceptado y creado por Jhonathan Peña")
 
     #Testing the CRUD
     def testCreate(self):
