@@ -10,6 +10,9 @@ def jhonathan(request):
 def miguel(request):
     return HttpResponse("Respuesta creada por Miguel Royett")
 
+def gaston(request):
+    return HttpResponse("Respuesta creada por Gaston")
+
 def create(data):
     pass
 
