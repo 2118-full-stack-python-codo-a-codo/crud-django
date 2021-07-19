@@ -19,5 +19,6 @@ from encuestas.views import gretting
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('users/', gretting)
+    path('users/', gretting),
+    path('jhonathan/', jhonathan)
 ]
